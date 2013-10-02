@@ -1,0 +1,143 @@
+@import url(../../base/css/general.css);
+
+a img, img
+{
+	border:none;
+}
+
+div.main
+{
+	position:relative;
+	margin:0 auto;
+	background:none;
+	background-color:#FFF;
+	padding:0 5px;
+	padding-bottom:30px;
+}
+div.sys_main_logo
+{
+	background:none;
+}
+div.sys_main_logo .quote_div
+{
+	color:#000;
+}
+div.sys_main_logo .author
+{
+	color:#6a6a6a;
+}
+div.content
+{
+	margin-top:10px;
+}
+
+div.search_filled_block 
+{
+	background-color:#D9EFFF;
+}
+
+div.top_settings_block
+{
+	background-color:#FFF;
+	color:#000;
+	border-bottom:1px solid #3497d9;
+}
+
+/* Extra top menu */
+
+div.extra_top_menu table.fixed_menu 
+{
+	border: 1px solid #000;
+}
+
+div.extra_top_menu table.fixed_menu td
+{
+	border-top:none;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.devider img
+{
+	width:1px;
+}
+div.extra_top_menu table.fixed_menu div.popup_html div.menu_item_active 
+{
+	background-color:#eff8fe;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html table.popup{
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.extra_data
+{
+	background-color:#61a5d3;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.top_cover
+{
+	border-top:1px solid #000;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html  div.bottom_cover
+{
+	border-bottom:1px solid #B7B7B7;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html div.control
+{
+	background-color:#eff8fe;
+	color:#000;
+}
+
+div.extra_top_menu table.fixed_menu div.popup_html div.content
+{
+	color:#000;
+}
+
+div.extra_top_menu table.fixed_menu div.bottom_indent
+{
+
+}
+
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block div.messages_history div.sender_info
+{
+	background-color:#61a5d3;
+}
+
+div.extra_top_menu table.fixed_menu div.simple_messenger_chat_block
+{
+	border-left: 1px solid #000;
+}
+div.extra_top_menu table.fixed_menu  div.active_chat_block
+{
+	background-color:#eff8fe;
+}
+
+/* End extra top menu */
+
+/* style for button */
+/*.actionsBlock .button_input_wrapper
+{
+	background-image: url('../images/button_bg.png');
+}
+.actionsBlock .button_input_wrapper button
+{
+	color:#FFF;
+	cursor:pointer;
+}
+*/
+/**********/
+
+
+div.main_footer_block
+ {
+	border:none !important;
+	background:none !important;
+}
+.bottomCopyright
+{
+	border:none;
+	background-color:transparent;
+}

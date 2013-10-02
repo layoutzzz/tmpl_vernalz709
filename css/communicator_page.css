@@ -1,0 +1,33 @@
+@import url(../../base/css/communicator_page.css);
+
+div.top_settings_block 
+{
+	background:none;
+}
+div.top_settings_block div.left_section, div.top_settings_block div.right_section 
+{
+	color:#000;
+}
+
+div.communicator_container table
+{
+	background-color:#313131;
+}
+
+div.communicator_container table th.action_section, div.communicator_container table th.type_section
+{
+	background-color:#8BD0FF;
+	color:#fff;
+}
+div.communicator_container table th.toggle_up 
+{
+	background-image:url(../images/icons/toggle_up.png);
+}
+div.communicator_container table th.toggle_down 
+{
+    background-image:url(../images/icons/toggle_down.png);
+}	
+div.communicator_container table td.bottom_actions
+{
+	background-color:#FFF;
+}

@@ -1,0 +1,199 @@
+@import url(../../base/css/common.css);
+
+body
+{
+	margin:0;
+	padding:0;
+	color:#000;
+	background: #b2c95d url('../images/body_bg.gif') top left repeat;
+	font-family:Arial,Helvetica,Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.clear_both
+{
+	clear:both;
+	font-size:0px;
+	height:0px;
+}
+
+/* * * * DesignBox * * * */
+div.disignBoxFirst
+{
+	border:none;
+	background:none;
+}
+
+div.boxFirstHeader
+{
+	background-color:#68becf;
+	border:none;
+	color:#FFF;
+}
+div.dbTitle
+{
+}
+div.boxContent-Block
+{
+	border:1px solid #68becf;
+	background-color:#fff;
+}
+div.boxContent
+{
+	background-color:#fff;
+}
+/* * * * End DesignBox * * * */
+
+.dbTopMenu div.active 
+{
+	background-image: url('../images/icons/_dbtopmenu_left.gif');
+	background-position: top left;
+}
+.dbTopMenu .active span
+{
+	background-image: url('../images/icons/_dbtopmenu_right.gif');
+	font-weight:bold;
+}
+.dbTopMenu div a, .dbTopMenu div a:link, .dbTopMenu div a:hover, .dbTopMenu div a:active, .dbTopMenu div a:visited 
+{
+	color: #FFF;
+}
+
+.dbTopMenu div a:link, .dbTopMenu div a:visited 
+{
+	text-decoration:underline;
+}
+.dbTopMenu div a:hover, .dbTopMenu div a:active
+{
+	text-decoration:none;
+}
+
+.TransBox .msgbox_content
+{
+	padding:5px;
+}
+div.thumbnail_image, div.thumbnail_image_couple, .sys_file_search_pic, .sys_album
+{
+	border:1px solid #313131;
+	background-color:#F3FAFF;
+}
+
+.MsgBox .msgbox_left_side, .MsgBox .msgbox_right_side, .MsgBox .msgbox_top_side, .MsgBox .msgbox_bottom_side 
+{
+	background-image:url('../images/msgbox_bd.gif');
+	background-color:#8bd0ff;
+	font-size:0px;
+}
+.MsgBox .msgbox_content
+{
+	background-color:#8bd0ff;
+}
+.MsgBox .msgbox_text
+{
+	color:#FFF;
+}
+
+
+div.paginate
+{
+	border-top:1px solid #3497d9;
+	background:none;
+}
+
+div.dbTmLeft
+{
+	background-image:url('../images/dbTmLeft.gif');
+}
+div.dbTmRight
+{
+	background-image:url('../images/dbTmRight.gif');
+}
+div.pollAnswerBlock div.pollResultRow 
+{
+	background-image: url('../images/poll_res_fill.png');
+}
+
+div.disignBoxFirst div.boxContent div.poll_block div.poll_section div.pollAnswerBlock table td.poll
+{
+	background-color:#fff;
+}
+
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info
+{
+	color:#787878;
+}
+
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:link, div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:visited,
+div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:hover, div.disignBoxFirst div.boxContent div.poll_info div.owner_info a:active
+{
+	color:#70c3fb;
+}
+div.disignBoxFirst div.boxContent div.shoutbox_wrapper
+{
+	background-color:#f5fbff;
+	border:1px solid #313131;
+}
+
+div.disignBoxFirst div.boxContent .blog_unit .fr_small_gray_centered 
+{
+	color:#787878;
+}
+div.disignBoxFirst div.boxContent div.message_block span
+{
+	color:#787878;
+}
+.sys_file_search_when
+{
+	color:#787878;
+}
+.dbBottomMenu
+{
+	background:none;
+	border-top:1px solid #3497d9;
+}
+div.disignBoxFirst div.boxContent .ads_Pic
+{
+	border:1px solid #313131;
+}
+.votes_active_big
+{
+	background-image:url('../images/vote_star_active_32.png'); 
+}
+.votes_active_small
+{
+	background-image:url('../images/vote_star_active_16.png'); 
+}
+
+/*notify message*/
+.notify_message
+{
+	background-image:url('../images/icons/notify_msg_left_bg.png'); 
+}
+
+.notify_message_none 
+{
+	background-image:url('../images/icons/notify_msg_bg.png');
+}
+
+.notify_message .notify_wrapper_close 
+{
+	background-image:url('../images/icons/notify_msg_bg.png');
+}	
+/*End notify message*/
+
+div.disignBoxFirst div.boxContent div.wall-divider, div.disignBoxFirst div.boxContent div.wall-divider-today 
+{
+	background-color:#A5DBFF;
+}
+div.disignBoxFirst div.boxContent div.wall-divider-nerrow
+{
+	background-color:#A5DBFF;
+} 
+.admin_actions_panel
+{
+	background-color:#B9C8DF;
+}
+div.disignBoxFirst div.boxContent div.news-entry
+{
+	background-color:#FFF;
+}

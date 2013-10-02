@@ -1,0 +1,60 @@
+@import url(../../base/css/mail.css);
+
+div.view_message_container
+{
+	border:1px solid #a5dbff;
+	background:#FFF;
+}
+
+div.view_message_container table#owner_information
+{
+	background-color: #a5dbff;
+	border-bottom:1px solid #a5dbff;
+}
+div.view_message_container table#owner_information td
+{
+	background-color: #a5dbff;
+}
+div.view_message_container div.message_actions 
+{
+	background-color: #a5dbff;
+    border-top: 1px solid #a5dbff;
+}
+table.mailbox th.toggle_up
+{
+	background-image: url(../images/icons/toggle_up.png);
+}
+table.mailbox th.toggle_down
+{
+	background-image: url(../images/icons/toggle_down.png);
+}
+table.mailbox th.action_section
+{
+	background-color:#8BD0FF;
+	color:#fff;
+}
+table.mailbox
+{
+	background-color:#313131;
+}
+table.mailbox td.bottom_actions
+{
+	background-color:#FFF;
+	color:#000;
+}
+table.mailbox tr.filled
+{
+	background-color:#F2FAFF;
+}
+div.contacts_container table
+{
+	background-color: #313131;
+}
+div.top_settings_block div.left_section
+{
+	color:#000;
+}
+div.top_settings_block div.right_section 
+{
+	color:#000;
+}

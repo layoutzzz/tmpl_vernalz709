@@ -1,0 +1,35 @@
+@import url(../../base/css/anchor.css);
+
+a, a:link 
+{
+	color:#c25d51;
+}
+a:visited 
+{
+	color:#c25d51;
+}
+
+a:hover, a:active 
+{
+	color:#c25d51;
+}
+
+a, a:link, a:visited, a:active 
+{
+	text-decoration:none;
+}
+a:hover 
+{
+	text-decoration:underline;
+}
+
+
+div.extra_top_menu table.fixed_menu div.popup_html a, div.extra_top_menu table.fixed_menu div.popup_html a:link, div.extra_top_menu table.fixed_menu div.popup_html a:visited 
+{
+	color:#FFF;
+}
+
+div.extra_top_menu table.fixed_menu  div.html_data a, div.extra_top_menu table.fixed_menu  div.html_data a:link, div.extra_top_menu table.fixed_menu  div.html_data a:visited 
+{
+	color:#57bcff;
+}

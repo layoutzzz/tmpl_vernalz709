@@ -1,0 +1,11 @@
+@import url("../../base/css/main.css");
+
+#orca_main
+{
+    width:100%;
+}
+
+.forum_table_list tr td
+{
+	border-top-color:#8bd0ff;
+}

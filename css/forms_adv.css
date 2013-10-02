@@ -1,0 +1,86 @@
+@import url(../../base/css/forms_adv.css);
+
+.form_advanced_table 
+{
+    border-right: 1px solid #6898c6;
+    border-left: 1px solid #6898c6;	
+	border-top: 1px solid #6898c6;
+    font-size: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.form_advanced_table th, .form_advanced_table td, .input_close, .button_wrapper_close 
+{
+	background-color:#FFF;
+}
+
+.form_advanced_table th, .form_advanced_table td 
+{
+    border-bottom: 1px solid #6898c6;
+}
+.form_advanced_table th.block_header 
+{
+   
+	background: #6898c6;
+	text-align:center;
+	font-weight:bold;
+	color:#FFF;
+}
+/*
+.form_input_file, .form_input_select, .form_input_select_multiple, .form_input_select_box, .form_input_slider, .input_wrapper_select_box .form_input_text
+{
+	 border: 1px solid #;
+}	
+
+.input_wrapper_text, .input_wrapper_email, .input_wrapper_url, .input_wrapper_date, .input_wrapper_datetime, .input_wrapper_password, .input_wrapper_number,
+.input_wrapper_range, .input_wrapper_doublerange
+{
+	background-image: url('../images/form_text_wrap.png'); 
+}
+.input_close_text, .input_close_email, .input_close_url, .input_close_date, .input_close_datetime, .input_close_password, .input_close_number, .input_close_range, .input_close_doublerange 
+{
+ 	background-image: url('../images/form_text_wrap.png'); 
+}
+*/
+.form_input_text, .form_input_email, .form_input_url, .form_input_date, .form_input_datetime, .form_input_password, .form_input_number, .form_input_range, .form_input_doublerange
+{
+	
+}
+/*
+input[type=submit], input[type=button], input[type=reset], input.submit, input.button, input.reset
+{
+ 	background-image: url('../images/button1_bg.png');
+	color:#; 
+}
+.button_wrapper, .button_wrapper_close
+{
+	background-image: url('../images/button_bg.png');
+}
+
+.ui-slider-handle
+{
+	background-image: url('../images/slider_trigger_bg.gif'); 
+}
+
+.input_wrapper_textarea
+{
+	  border-color: # # # #; 
+}
+
+.form_advanced_wrapper .input_close_textarea 
+{
+ 	background-image: url('../images/form_area_corners.png');
+	background-color:#; 
+}
+
+#float_info
+{
+ 	background-color: #;
+	border: 1px solid #; 
+}
+*/
+img.captcha
+{
+	margin-bottom:5px;
+}

@@ -1,0 +1,124 @@
+@import url(../../base/css/cmts.css);
+
+div.cmt-browse
+{
+	background:none;
+	color:#000;
+	border-bottom:1px solid #3497d9;
+}
+
+/******** Answer*********/
+td.cmt-head-l, td.wcmt-head-l, ul.cmts-margin td.cmt-head-l, div.cmt-post-reply td.cmt-head-l 
+{
+	background-image: url('../images/icons/cmt-bln-tl.png');
+}
+
+td.cmt-head-m, td.wcmt-head-m, ul.cmts-margin td.cmt-head-m, div.cmt-post-reply td.cmt-head-m 
+{
+	background-image: url('../images/icons/cmt-bln-tm.png');
+}
+
+td.cmt-head-r, td.wcmt-head-r, ul.cmts-margin td.cmt-head-r, div.cmt-post-reply td.cmt-head-r
+{
+	background-image: url('../images/icons/cmt-bln-tr.png');
+}
+td.cmt-head-r, td.wcmt-head-r, ul.cmts-margin td.cmt-head-r, div.cmt-post-reply td.cmt-head-r
+{
+	background-image: url('../images/icons/cmt-bln-tr.png');
+}
+td.cmt-head-r, td.wcmt-head-r, ul.cmts-margin td.cmt-head-r, div.cmt-post-reply td.cmt-head-r
+{
+	background-image: url('../images/icons/cmt-bln-tr.png');
+}
+td.cmt-cont-r, td.wcmt-cont-r, ul.cmts-margin td.cmt-cont-r, div.cmt-post-reply td.cmt-cont-r 
+{
+	background-image: url('../images/icons/cmt-bln-mr.png');
+}	
+td.cmt-cont-l, td.wcmt-cont-l, ul.cmts-margin td.cmt-cont-l, div.cmt-post-reply td.cmt-cont-l 
+{
+	background-image: url('../images/icons/cmt-bln-ml.png');
+}
+
+td.cmt-foot-r, td.wcmt-foot-r, ul.cmts-margin td.cmt-foot-r, div.cmt-post-reply td.cmt-foot-r 
+{
+	background-image: url('../images/icons/cmt-bln-br.png');
+}	
+td.cmt-foot-m, td.wcmt-foot-m, ul.cmts-margin td.cmt-foot-m, div.cmt-post-reply td.cmt-foot-m 
+{
+	background-image: url('../images/icons/cmt-bln-bm.png');
+}
+td.cmt-foot-l, td.wcmt-foot-l, ul.cmts-margin td.cmt-foot-l, div.cmt-post-reply td.cmt-foot-l 
+{
+	background-image: url('../images/icons/cmt-bln-bl.png');
+}
+td.cmt-cont-m
+{
+	background-color:#EEF7FF;
+}
+/****Post answer form****/
+div.cmt-post-reply td.cmt-head-l 
+{
+	background-image: url(../images/icons/cmt-frm-bln-tl.png);
+}
+div.cmt-post-reply td.cmt-head-m 
+{
+	background-image: url(../images/icons/cmt-frm-bln-tm.png);
+}
+div.cmt-post-reply td.cmt-head-r 
+{        
+	background-image: url(../images/icons/cmt-frm-bln-tr.png);
+}
+div.cmt-post-reply td.cmt-cont-l 
+{
+   background-image: url(../images/icons/cmt-frm-bln-ml.png);
+}
+ div.cmt-post-reply td.cmt-cont-r 
+{
+	background-image: url(../images/icons/cmt-frm-bln-mr.png);
+}  
+div.cmt-post-reply td.cmt-foot-l 
+{
+	background-image: url(../images/icons/cmt-frm-bln-bl.png);
+}
+div.cmt-post-reply td.cmt-foot-m 
+{
+	background-image: url(../images/icons/cmt-frm-bln-bm.png);
+}
+div.cmt-post-reply td.cmt-foot-r 
+{
+	background-image: url(../images/icons/cmt-frm-bln-br.png);
+}
+/******Post reply********/
+td.wcmt-head-l, ul.cmts-margin td.cmt-head-l 
+{
+	background-image: url(../images/icons/cmt-reply-bln-tl.png);
+}
+td.wcmt-head-m, ul.cmts-margin td.cmt-head-m 
+{
+	background-image: url(../images/icons/cmt-reply-bln-tm.png);
+}
+td.wcmt-head-r, ul.cmts-margin td.cmt-head-r 
+{
+	background-image: url(../images/icons/cmt-reply-bln-tr.png);
+}
+td.wcmt-cont-l, ul.cmts-margin td.cmt-cont-l 
+{
+	background-image: url(../images/icons/cmt-reply-bln-ml.png);
+}
+td.wcmt-cont-r, ul.cmts-margin td.cmt-cont-r 
+{
+	background-image: url(../images/icons/cmt-reply-bln-mr.png);
+}
+td.wcmt-foot-l, ul.cmts-margin td.cmt-foot-l 
+{
+	background-image: url(../images/icons/cmt-reply-bln-bl.png);
+}
+td.wcmt-foot-m, ul.cmts-margin td.cmt-foot-m 
+{
+	background-image: url(../images/icons/cmt-reply-bln-bm.png);
+}
+
+td.wcmt-foot-r, ul.cmts-margin td.cmt-foot-r 
+{
+	background-image: url(../images/icons/cmt-reply-bln-br.png);
+}

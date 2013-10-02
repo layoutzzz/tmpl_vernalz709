@@ -1,0 +1,27 @@
+@import url(../../base/css/categories.css);
+
+.quick_links_elink 
+{
+    background-color: #f44e50;
+    border: 1px solid #f44e50;
+}
+.lcont_top
+{
+	background-color: #f44e50;
+}
+
+.lcont_top a.main_l, .lcont_top a.main_l:link, .lcont_top a.main_l:visited, .lcont_top a.main_l:hover, .lcont_top a.main_l:active
+{
+	color:#FFF;
+}
+
+
+.quick_links_elink_lcont
+{
+	background-color:#FFF;
+	border-top:none;
+}
+div.js_control_section 
+{
+	background-image:url(../images/icons/toggle.png);
+}	

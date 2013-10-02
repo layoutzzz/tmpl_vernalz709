@@ -1,0 +1,210 @@
+@import url(../../base/css/top_menu.css);
+
+
+div.sys_top_menu-left
+{
+	background:url('../images/sys_top_menu_left.gif') top left no-repeat;
+	min-height: 30px;
+}
+div.sys_top_menu-right
+{
+	background:url('../images/sys_top_menu_right.gif') top right no-repeat;
+	min-height: 30px;
+}
+div.sys_top_menu
+{
+	background:none;
+	background: url('../images/sys_top_menu_bg.gif') top left repeat-x;
+	margin:0 5px;
+	min-height: 30px;
+}
+
+.topMenu td
+{
+	height:30px;
+}
+
+/** style for top menu links**/
+.topMenu a, .topMenu b 
+{ 
+    height:30px; 
+    line-height:30px; 
+}
+.topMenu .more_down, .topMenu .more_right
+{
+	height:30px;
+}
+.topMenu a, .topMenu a:link, .topMenu a:visited, .topMenu b
+{
+	background:none;
+	color:#FFF;
+	padding:0;
+	margin:0;
+}
+
+
+.topMenu a span.down, .topMenu b span.down 
+{
+	background-image:none;
+	padding:0;
+}
+
+.topMenu td#tm_active a.top_link, .topMenu td#tm_active a.top_link:link, .topMenu td#tm_active a.top_link:visited, .topMenu td#tm_active a.top_link:active 
+{
+	background:none;
+	background-color:#ca6249;
+}
+
+.topMenu td.top:hover a.top_link, .topMenu td.top:hover a.top_link:link, .topMenu td.top:hover a.top_link:visited, .topMenu td.top:hover a.top_link:active
+{
+	background:none;
+	background-color:#ca6249;
+}
+.topMenu td.top:hover a span.down, .topMenu td.top:hover b span.down, .topMenu td.top a:hover a span.down, .topMenu td.top a:hover b span.down, .topMenu td#tm_active a span.down
+{
+	background:none;
+	margin:0;
+	color:#fcd8cc;
+}
+
+/**style for sub menu box in top menu**/
+.topMenu .top ul.sub
+{
+	background-image:url('../images/tm_smenu_bg.png');
+}
+.topMenu .top ul.sub .li_last_round
+{
+	background-image: url('../images/tm_smenu_bottom.png');
+}
+.topMenu .top ul.sub .li_last_round:hover
+{
+	background-image: url('../images/tm_smenu_bottom.png');
+}
+.topMenu ul.sub li:hover
+{
+	/* background-image:url('../images/tm_sitem_act.png'); */
+	background:none;
+	background:url('../images/tm_sitem_act.png') bottom center no-repeat;
+}
+.topMenu ul.sub ul.more_sub li:hover
+{
+	/* background-image:url('../images/tm_smenu_sitem_act.png'); */
+	background:none;
+	background-color:#c25d51;
+} 
+/** style for sub menu box links color**/
+
+.topMenu ul.sub li a.button
+{
+	color:#FFF;
+}
+
+.topMenu .sub a.more_ntop_element:hover
+{
+	font-weight:bold;
+	color:#fcd8cc;
+}
+.topMenu .sub a.more_ntop_element.active
+{
+	color:#fcd8cc;
+}
+
+ul.sub li a.more_top_element:hover
+{
+	font-weight:bold;
+	color:#fcd8cc;
+}
+.topMenu .more_right
+{
+	background:url('../images/icons/tm_sitem_right.gif');
+}
+.topMenu .more_down 
+{
+	background:url('../images/icons/tm_sitem_down.gif');
+}
+
+/******************************/
+.subMenu .subMenuContainer, .subMenu .subMenuContainerEmpty 
+{
+	background:none;
+}
+
+.subMenu table td.usual 
+{ 
+    height:auto; 
+}
+.subMenu table td.tabbed 
+{ 
+    height:auto; 
+}
+
+.subMenu table td.usual div, .subMenu table td.tabbed div
+{
+	height:auto;
+	line-height:1em;
+	font-size:12px;
+	color:#FFF;
+}
+.subMenu table td.usual div
+{
+	background-color:#6B0B11;
+	padding:5px;
+	margin:0;
+	margin-right:5px;
+	
+}
+.subMenu table td.tabbed div
+{
+	background-color:#b8252f;
+}
+.subMenu table a.sublinks, .subMenu table a.sublinks:link, .subMenu table a.sublinks:visited 
+{
+	height:auto;
+	color:#FFF;
+}
+.subMenu table td.usual div:hover
+{
+	background-color:#b8252f;
+}
+.subMenu table a.sublinks:hover, .subMenu table a.sublinks:active 
+{ 
+    background:none; 
+    color:#FFF; 
+}
+
+.subMenu table td.tabbed .tm_cm_item_left_act
+{
+}
+.subMenu table td.tabbed .tm_cm_item_center_act
+{
+	padding:5px;
+	margin-right:5px;
+}
+.subMenu table td.tabbed .tm_cm_item_right_act
+{
+}
+/***********************************/
+.breadcrumb
+{
+	background:none;
+	border:none;
+	padding:0 10px;
+	margin:0;
+	font-size:11px;
+	color:#000;
+}
+.breadcrumb div.bc_open, .breadcrumb div.bc_close 
+{
+	left:auto;
+	right:auto;
+	width:auto;
+	height:auto;
+	background:none;
+}
+
+.breadcrumb a, .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active 
+{
+	font-size:11px;
+	text-transform:capitalize;
+	color:#c25d51;
+}

@@ -1,0 +1,36 @@
+@import url(../../base/css/calendar.css);
+
+.sys_cal_table th
+{
+	background-color:#b8252f;
+	border:1px solid #b8252f;
+	color:#FFF;
+}
+.sys_cal_cell_blank
+{
+	background-color:white;
+	border-color:#b8252f;
+}
+.sys_cal_cell
+{
+	border:1px solid #b8252f;
+	background-color:#de9294;
+}
+.viewAllMembers
+{
+	font-weight:bold;
+}
+div.sys_cal_wrapper .dbBottomMenu
+{
+	border:none;
+}
+
+div.sys_cal_wrapper .cal_top
+{
+	border-bottom:1px solid #2d8092;
+}
+
+div.sys_cal_wrapper .cal_bottom
+{
+	border-top:1px solid #2d8092;
+}

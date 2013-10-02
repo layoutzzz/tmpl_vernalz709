@@ -1,0 +1,31 @@
+@import url(../../base/css/browse.css);
+
+div.sub_design_box_head
+{
+	background-color:#6898c6;
+	border-bottom: 1px solid #6898c6;
+    border-left: 1px solid #6898c6;
+    border-right: 1px solid #6898c6;
+}
+div.caption_section
+{
+	color:#FFF;
+}
+div.sub_design_box_body
+{
+	border-bottom: 1px solid #6898c6;
+    border-left: 1px solid #6898c6;
+    border-right: 1px solid #6898c6;
+}
+div.js_control_section
+{
+	 background-image: url("../images/icons/toggle.png");
+}
+div.boxFirstHeader 
+{
+	color:#FFF;
+}
+div.linkSection
+{
+	color:#000;
+}
